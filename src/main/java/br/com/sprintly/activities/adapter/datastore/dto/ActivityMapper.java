@@ -29,7 +29,8 @@ public class ActivityMapper {
 				.spentTime(model.getSpentTime())
 				.createdBy(model.getCreatedBy())
 				.associatedTo(model.getAssociatedTo())
-				.createdOn(model.getCreatedOn())
+				.createdAt(model.getCreatedAt())
+				.lastModifiedAt(model.getLastModifiedAt())
 				.build();
 	}
 
@@ -43,7 +44,8 @@ public class ActivityMapper {
 				.spentTime(entity.getSpentTime())
 				.createdBy(entity.getCreatedBy())
 				.associatedTo(entity.getAssociatedTo())
-				.createdOn(entity.getCreatedOn())
+				.createdAt(entity.getCreatedAt())
+				.lastModifiedAt(entity.getLastModifiedAt())
 				.build();
 	}
 }

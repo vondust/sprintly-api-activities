@@ -20,7 +20,7 @@ import br.com.sprintly.activities.core.service.ActivityService;
 
 @RestController
 @RequestMapping("/sprintly/activities")
-public class ActivityControler {
+public class ActivityController {
 
 	private static final String ID = "id";
 	private static final String ID_PATH = "/{id}";

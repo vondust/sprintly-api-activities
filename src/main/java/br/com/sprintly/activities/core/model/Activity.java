@@ -31,5 +31,7 @@ public class Activity {
 	private String createdBy;
 	private String associatedTo;
 	@JsonFormat(shape = JsonFormat.Shape.STRING, locale = "pt_BR", pattern = "yyyy-MM-dd HH:mm:ss")
-	private LocalDateTime createdOn;
+	private LocalDateTime createdAt;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, locale = "pt_BR", pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime lastModifiedAt;
 }

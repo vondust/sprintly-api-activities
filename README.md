@@ -1,4 +1,4 @@
-# API de Skills do projeto Sprintly (Microserviços)
+# API de Activities do projeto Sprintly (Microserviços)
 
 ### Para executar com Maven
 
@@ -6,13 +6,13 @@
 
 ### Para executar com Docker
 
-1) docker build -f Dockerfile -t sprintly-api-skills .
-2) docker run -p 8090:8090 sprintly-api-skills
+1) docker build -f Dockerfile -t sprintly-api-activities .
+2) docker run -p 8090:8090 sprintly-api-activities
 
 É possível baixar a imagem atualizada também direto via dockerhub através de: 
 
-aguiarbruno/sprintly-api-skills-alpha
+aguiarbruno/sprintly-api-activities
 
 E executar o segundo o comando:
 
-docker run -p 8090:8090 sprintly-api-skills-alpha
+docker run -p 8090:8090 sprintly-api-activities
